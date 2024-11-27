@@ -2,6 +2,7 @@
   "equipos": [
     {
       "nombre": "Manchester United",
+      "img": "fotos/equipos/escudo.Manchester_United.jpg",
       "fundado": 1878,
       "estadio": "Old Trafford",
       "ciudad": "Manchester",
@@ -12,26 +13,27 @@
           "posicion": "Centrocampista",
           "edad": 28,
           "nacionalidad": "Portugal",
-          "imagen": "https://example.com/images/bruno_fernandes.jpg"
+          "imagen": "fotos/jugadores/brunoFernandes.jpg"
         },
         {
           "nombre": "Marcus Rashford",
           "posicion": "Delantero",
           "edad": 25,
           "nacionalidad": "Inglaterra",
-          "imagen": "https://example.com/images/marcus_rashford.jpg"
+          "imagen": "fotos/jugadores/rashford.jpg"
         },
         {
           "nombre": "David de Gea",
           "posicion": "Portero",
           "edad": 32,
           "nacionalidad": "España",
-          "imagen": "https://example.com/images/david_de_gea.jpg"
+          "imagen": "fotos/jugadores/deGea.jpg"
         }
       ]
     },
     {
       "nombre": "Liverpool",
+      "img": "fotos/equipos/escudo.Liverpool.jpg",
       "fundado": 1892,
       "estadio": "Anfield",
       "ciudad": "Liverpool",
@@ -42,26 +44,27 @@
           "posicion": "Delantero",
           "edad": 31,
           "nacionalidad": "Egipto",
-          "imagen": "https://example.com/images/mohamed_salah.jpg"
+          "imagen": "fotos/jugadores/salah.jpeg"
         },
         {
           "nombre": "Virgil van Dijk",
           "posicion": "Defensa",
           "edad": 32,
           "nacionalidad": "Países Bajos",
-          "imagen": "https://example.com/images/virgil_van_dijk.jpg"
+          "imagen": "fotos/jugadores/vanDijk.jpg"
         },
         {
           "nombre": "Alisson Becker",
           "posicion": "Portero",
           "edad": 30,
           "nacionalidad": "Brasil",
-          "imagen": "https://example.com/images/alisson_becker.jpg"
+          "imagen": "fotos/jugadores/alisson.jpg"
         }
       ]
     },
     {
       "nombre": "FC Barcelona",
+      "img": "fotos/equipos/escudo.FC_Barcelona.jpg",
       "fundado": 1899,
       "estadio": "Camp Nou",
       "ciudad": "Barcelona",
@@ -72,26 +75,27 @@
           "posicion": "Delantero",
           "edad": 35,
           "nacionalidad": "Polonia",
-          "imagen": "https://example.com/images/robert_lewandowski.jpg"
+          "imagen": "fotos/jugadores/lewan.jpg"
         },
         {
           "nombre": "Pedri",
           "posicion": "Centrocampista",
           "edad": 20,
           "nacionalidad": "España",
-          "imagen": "https://example.com/images/pedri.jpg"
+          "imagen": "fotos/jugadores/pedri.jpg"
         },
         {
           "nombre": "Marc-André ter Stegen",
           "posicion": "Portero",
           "edad": 31,
           "nacionalidad": "Alemania",
-          "imagen": "https://example.com/images/ter_stegen.jpg"
+          "imagen": "fotos/jugadores/terStegen.jpg"
         }
       ]
     },
     {
       "nombre": "Real Madrid",
+      "img": "fotos/equipos/escudo.Real_Madrid.jpg",
       "fundado": 1902,
       "estadio": "Santiago Bernabéu",
       "ciudad": "Madrid",
@@ -102,21 +106,21 @@
           "posicion": "Delantero",
           "edad": 23,
           "nacionalidad": "Brasil",
-          "imagen": "https://example.com/images/vinicius_junior.jpg"
+          "imagen": "fotos/jugadores/vini.jpeg"
         },
         {
           "nombre": "Luka Modrić",
           "posicion": "Centrocampista",
           "edad": 38,
           "nacionalidad": "Croacia",
-          "imagen": "https://example.com/images/luka_modric.jpg"
+          "imagen": "fotos/jugadores/modric.jpg"
         },
         {
           "nombre": "Thibaut Courtois",
           "posicion": "Portero",
           "edad": 31,
           "nacionalidad": "Bélgica",
-          "imagen": "https://example.com/images/thibaut_courtois.jpg"
+          "imagen": "fotos/jugadores/courtois.jpg"
         }
       ]
     }

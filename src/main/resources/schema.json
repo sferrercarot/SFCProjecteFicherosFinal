@@ -7,44 +7,45 @@
       "items": {
         "type": "object",
         "properties": {
-          "nombre": {
-            "type": "string"
+          "nombre": { "type": "string" },
+          "img": {
+            "type": "string",
+            "format": "uri-reference"
           },
           "fundado": {
-            "type": "integer"
+            "type": "integer",
+            "minimum": 1800,
+            "maximum": 2100
           },
-          "estadio": {
-            "type": "string"
-          },
-          "ciudad": {
-            "type": "string"
-          },
-          "entrenador": {
-            "type": "string"
-          },
+          "estadio": { "type": "string" },
+          "ciudad": { "type": "string" },
+          "entrenador": { "type": "string" },
           "jugadores": {
             "type": "array",
             "items": {
               "type": "object",
               "properties": {
-                "nombre": {
-                  "type": "string"
-                },
+                "nombre": { "type": "string" },
                 "posicion": {
-                  "type": "string"
+                  "type": "string",
+                  "enum": ["Portero", "Defensa", "Centrocampista", "Delantero"]
                 },
                 "edad": {
-                  "type": "integer"
+                  "type": "integer",
+                  "minimum": 15,
+                  "maximum": 50
                 },
-                "nacionalidad": {
-                  "type": "string"
+                "nacionalidad": { "type": "string" },
+                "imagen": {
+                  "type": "string",
+                  "format": "uri-reference"
                 }
               },
-              "required": ["nombre", "posicion", "edad", "nacionalidad"]
+              "required": ["nombre", "posicion", "edad", "nacionalidad", "imagen"]
             }
           }
         },
-        "required": ["nombre", "fundado", "estadio", "ciudad", "entrenador", "jugadores"]
+        "required": ["nombre", "img", "fundado", "estadio", "ciudad", "entrenador", "jugadores"]
       }
     }
   },

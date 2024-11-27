@@ -1,0 +1,111 @@
+/* Importar una fuente bonita de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Cambiamos la fuente a Roboto */
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #e9f5e9, #ffffff); /* Fondo degradado */
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #007A33; /* Verde futbolero */
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Aumentamos el tamaño del título */
+}
+
+h2 {
+    color: #007A33;
+    margin-top: 40px;
+    text-align: center; /* Centramos el título de los jugadores */
+    font-size: 2em; /* Aumentamos el tamaño del subtítulo */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+strong {
+    color: #007A33; /* Color para los títulos */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Aseguramos que los elementos estén en columna */
+    align-items: center; /* Centramos los elementos de la lista */
+}
+
+li {
+    background-color: white;
+    border: 2px solid #007A33; /* Borde verde */
+    border-radius: 10px;
+    padding: 20px; /* Aumentamos el padding */
+    margin: 15px 0; /* Mayor margen entre elementos */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    width: 90%; /* Ancho del 90% para centrado */
+    transition: transform 0.2s; /* Transición para el efecto de hover */
+}
+
+li:hover {
+    transform: scale(1.02); /* Efecto de aumento al pasar el mouse */
+}
+
+li img {
+    width: 100px; /* Aumentamos el tamaño de las imágenes */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    margin-right: 20px; /* Mayor margen a la derecha de la imagen */
+}
+
+li div {
+    flex-grow: 1; /* Permitir que el contenido ocupe el espacio disponible */
+}
+
+li strong {
+    margin-right: 5px;
+}
+
+li p {
+    margin: 10px 0; /* Mayor espacio entre los datos del futbolista */
+}
+
+/* Espaciado específico entre los datos del futbolista */
+li .jugador-info {
+    margin: 10px 0; /* Espacio entre cada dato del futbolista */
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    li {
+        flex-direction: column; /* Apilar elementos en pantallas pequeñas */
+        align-items: center; /* Centramos en móviles */
+    }
+
+    li img {
+        margin-bottom: 10px;
+        width: 100%; /* Imagen ocupa todo el ancho en móviles */
+        max-width: 150px; /* Limitar el ancho máximo */
+    }
+}

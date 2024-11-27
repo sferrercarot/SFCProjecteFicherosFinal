@@ -7,6 +7,9 @@ public class Equipo {
     @JsonProperty("nombre")
     private String nombre;
 
+    @JsonProperty("img")
+    private String img;
+
     @JsonProperty("fundado")
     private int fundado;
 
@@ -31,6 +34,14 @@ public class Equipo {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 
     public int getFundado() {
@@ -77,6 +88,7 @@ public class Equipo {
     public String toString() {
         return "Equipo{" +
                 "nombre='" + nombre + '\'' +
+                ", img='" + img + '\'' +
                 ", fundado=" + fundado +
                 ", estadio='" + estadio + '\'' +
                 ", ciudad='" + ciudad + '\'' +

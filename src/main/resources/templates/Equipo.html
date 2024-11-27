@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title th:text="'Detalles de ' + ${equipo.nombre}">Detalles del Equipo</title>
-    <link rel="stylesheet" th:href="@{styles.css}">
+    <link rel="stylesheet" href="css/stylesEquipo.css">
 </head>
 <body>
 <h1 th:text="'Detalles de ' + ${equipo.nombre}"></h1>
@@ -15,11 +15,16 @@
 <h2>Jugadores</h2>
 <ul>
     <li th:each="jugador : ${equipo.jugadores}">
-        <strong>Nombre:</strong> <span th:text="${jugador.nombre}"></span>,
-        <strong>Posición:</strong> <span th:text="${jugador.posicion}"></span>,
-        <strong>Edad:</strong> <span th:text="${jugador.edad}"></span>,
-        <strong>Nacionalidad:</strong> <span th:text="${jugador.nacionalidad}"></span>
+        <img th:src="${jugador.imagen}" alt="Imagen de jugador">
+        <div>
+            <strong>Nombre:</strong> <span th:text="${jugador.nombre}" class="jugador-info"></span><br>
+            <strong>Posición:</strong> <span th:text="${jugador.posicion}" class="jugador-info"></span><br>
+            <strong>Edad:</strong> <span th:text="${jugador.edad}" class="jugador-info"></span><br>
+            <strong>Nacionalidad:</strong> <span th:text="${jugador.nacionalidad}" class="jugador-info"></span>
+        </div>
     </li>
 </ul>
+
+</div>
 </body>
 </html>
