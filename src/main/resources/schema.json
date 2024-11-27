@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "equipos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string"
+          },
+          "fundado": {
+            "type": "integer"
+          },
+          "estadio": {
+            "type": "string"
+          },
+          "ciudad": {
+            "type": "string"
+          },
+          "entrenador": {
+            "type": "string"
+          },
+          "jugadores": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "nombre": {
+                  "type": "string"
+                },
+                "posicion": {
+                  "type": "string"
+                },
+                "edad": {
+                  "type": "integer"
+                },
+                "nacionalidad": {
+                  "type": "string"
+                }
+              },
+              "required": ["nombre", "posicion", "edad", "nacionalidad"]
+            }
+          }
+        },
+        "required": ["nombre", "fundado", "estadio", "ciudad", "entrenador", "jugadores"]
+      }
+    }
+  },
+  "required": ["equipos"]
+}

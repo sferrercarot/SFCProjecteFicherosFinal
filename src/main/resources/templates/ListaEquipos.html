@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Equipos</title>
+    <link rel="stylesheet" th:href="@{src/main/resources/templates/css/styles.css}">
+</head>
+<body>
+<h1>Equipos</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Ciudad</th>
+        <th>Estadio</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="equipo : ${equipos}">
+        <td>
+            <!-- Enlace dinámico hacia la página de detalles del equipo -->
+            <a th:href="@{'detalles_' + ${equipo.nombre.replace(' ', '_')} + '.html'}" th:text="${equipo.nombre}"></a>        </td>
+        <td th:text="${equipo.ciudad}"></td>
+        <td th:text="${equipo.estadio}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
