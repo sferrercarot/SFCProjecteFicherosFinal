@@ -1,26 +1,25 @@
-/* Importar una fuente bonita de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif; /* Cambiamos la fuente a Roboto */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 20px;
-    background: linear-gradient(to bottom right, #e9f5e9, #ffffff); /* Fondo degradado */
+    background: linear-gradient(to bottom right, #e9f5e9, #ffffff);
     color: #333;
 }
 
 h1 {
     text-align: center;
-    color: #007A33; /* Verde futbolero */
+    color: #007A33;
     margin-bottom: 20px;
-    font-size: 2.5em; /* Aumentamos el tamaño del título */
+    font-size: 2.5em;
 }
 
 h2 {
     color: #007A33;
     margin-top: 40px;
-    text-align: center; /* Centramos el título de los jugadores */
-    font-size: 2em; /* Aumentamos el tamaño del subtítulo */
+    text-align: center;
+    font-size: 2em;
 }
 
 p {
@@ -29,43 +28,43 @@ p {
 }
 
 strong {
-    color: #007A33; /* Color para los títulos */
+    color: #007A33;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Aseguramos que los elementos estén en columna */
-    align-items: center; /* Centramos los elementos de la lista */
+    flex-direction: column;
+    align-items: center;
 }
 
 li {
     background-color: white;
-    border: 2px solid #007A33; /* Borde verde */
+    border: 2px solid #007A33;
     border-radius: 10px;
-    padding: 20px; /* Aumentamos el padding */
-    margin: 15px 0; /* Mayor margen entre elementos */
+    padding: 20px;
+    margin: 15px 0;
     display: flex;
     align-items: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
-    width: 90%; /* Ancho del 90% para centrado */
-    transition: transform 0.2s; /* Transición para el efecto de hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    transition: transform 0.2s;
 }
 
 li:hover {
-    transform: scale(1.02); /* Efecto de aumento al pasar el mouse */
+    transform: scale(1.02);
 }
 
 li img {
-    width: 100px; /* Aumentamos el tamaño de las imágenes */
-    height: auto; /* Mantener la proporción de la imagen */
-    border-radius: 5px; /* Bordes ligeramente redondeados */
-    margin-right: 20px; /* Mayor margen a la derecha de la imagen */
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
 }
 
 li div {
-    flex-grow: 1; /* Permitir que el contenido ocupe el espacio disponible */
+    flex-grow: 1;
 }
 
 li strong {
@@ -73,12 +72,11 @@ li strong {
 }
 
 li p {
-    margin: 10px 0; /* Mayor espacio entre los datos del futbolista */
+    margin: 10px 0;
 }
 
-/* Espaciado específico entre los datos del futbolista */
 li .jugador-info {
-    margin: 10px 0; /* Espacio entre cada dato del futbolista */
+    margin: 10px 0;
 }
 
 @media (max-width: 600px) {
@@ -99,13 +97,13 @@ li .jugador-info {
     }
 
     li {
-        flex-direction: column; /* Apilar elementos en pantallas pequeñas */
-        align-items: center; /* Centramos en móviles */
+        flex-direction: column;
+        align-items: center;
     }
 
     li img {
         margin-bottom: 10px;
-        width: 100%; /* Imagen ocupa todo el ancho en móviles */
-        max-width: 150px; /* Limitar el ancho máximo */
+        width: 100%;
+        max-width: 150px;
     }
 }

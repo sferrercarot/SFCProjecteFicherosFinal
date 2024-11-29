@@ -5,7 +5,6 @@
         <link>src/main/resources/static/index.html</link>
         <description>Los 4 equipos mas importantes de fútbol</description>
 
-        <!-- Equipo: Manchester United -->
         <item>
             <title>Manchester United</title>
             <link>http://tusitio.com/equipos/Manchester_United</link>
@@ -20,7 +19,6 @@
             </description>
         </item>
 
-        <!-- Jugadores del Manchester United -->
         <item>
             <title>Bruno Fernandes</title>
             <link>http://tusitio.com/jugadores/Bruno_Fernandes</link>
