@@ -12,12 +12,12 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
-        templateResolver.setPrefix("templates/");
-        templateResolver.setSuffix(".html");
+        ClassLoaderTemplateResolver plantillas = new ClassLoaderTemplateResolver();
+        plantillas.setPrefix("templates/");
+        plantillas.setSuffix(".html");
 
         TemplateEngine templateEngine = new TemplateEngine();
-        templateEngine.setTemplateResolver(templateResolver);
+        templateEngine.setTemplateResolver(plantillas);
 
         Context context = new Context();
 
@@ -105,7 +105,6 @@ public class Main {
                 bw.write("</item>\n");
             }
 
-            // Cerrar canal RSS
             bw.write("</channel>\n");
             bw.write("</rss>\n");
 
