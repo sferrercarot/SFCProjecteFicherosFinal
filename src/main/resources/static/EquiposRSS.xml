@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Equipos de Fútbol - RSS Feed</title>
+<link>http://localhost:8080</link>
+<description>RSS con información sobre equipos y jugadores destacados.</description>
+<item>
+<title>Manchester United</title>
+<link>http://localhost:8080/detalles_Manchester_United.html</link>
+<description>
+Equipo fundado en 1878 en la ciudad de Manchester. Estadio: Old Trafford. Entrenador: Erik ten Hag.
+</description>
+<item>
+<title>Bruno Fernandes (Centrocampista)</title>
+<link>fotos/jugadores/brunoFernandes.jpg</link>
+<description>Centrocampista, Nacionalidad: Portugal, Edad: 28 años.
+</description>
+</item>
+<item>
+<title>Marcus Rashford (Delantero)</title>
+<link>fotos/jugadores/rashford.jpg</link>
+<description>Delantero, Nacionalidad: Inglaterra, Edad: 25 años.
+</description>
+</item>
+<item>
+<title>David de Gea (Portero)</title>
+<link>fotos/jugadores/deGea.jpg</link>
+<description>Portero, Nacionalidad: España, Edad: 32 años.
+</description>
+</item>
+</item>
+<item>
+<title>Liverpool</title>
+<link>http://localhost:8080/detalles_Liverpool.html</link>
+<description>
+Equipo fundado en 1892 en la ciudad de Liverpool. Estadio: Anfield. Entrenador: Arne Slott.
+</description>
+<item>
+<title>Mohamed Salah (Delantero)</title>
+<link>fotos/jugadores/salah.jpeg</link>
+<description>Delantero, Nacionalidad: Egipto, Edad: 31 años.
+</description>
+</item>
+<item>
+<title>Virgil van Dijk (Defensa)</title>
+<link>fotos/jugadores/vanDijk.jpg</link>
+<description>Defensa, Nacionalidad: Países Bajos, Edad: 32 años.
+</description>
+</item>
+<item>
+<title>Alisson Becker (Portero)</title>
+<link>fotos/jugadores/alisson.jpg</link>
+<description>Portero, Nacionalidad: Brasil, Edad: 30 años.
+</description>
+</item>
+</item>
+<item>
+<title>FC Barcelona</title>
+<link>http://localhost:8080/detalles_FC_Barcelona.html</link>
+<description>
+Equipo fundado en 1899 en la ciudad de Barcelona. Estadio: Camp Nou. Entrenador: Hansi Flik.
+</description>
+<item>
+<title>Robert Lewandowski (Delantero)</title>
+<link>fotos/jugadores/lewan.jpg</link>
+<description>Delantero, Nacionalidad: Polonia, Edad: 35 años.
+</description>
+</item>
+<item>
+<title>Pedri (Centrocampista)</title>
+<link>fotos/jugadores/pedri.jpg</link>
+<description>Centrocampista, Nacionalidad: España, Edad: 20 años.
+</description>
+</item>
+<item>
+<title>Marc-André ter Stegen (Portero)</title>
+<link>fotos/jugadores/terStegen.jpg</link>
+<description>Portero, Nacionalidad: Alemania, Edad: 31 años.
+</description>
+</item>
+</item>
+<item>
+<title>Real Madrid</title>
+<link>http://localhost:8080/detalles_Real_Madrid.html</link>
+<description>
+Equipo fundado en 1902 en la ciudad de Madrid. Estadio: Santiago Bernabéu. Entrenador: Carlo Ancelotti.
+</description>
+<item>
+<title>Vinícius Júnior (Delantero)</title>
+<link>fotos/jugadores/vini.jpeg</link>
+<description>Delantero, Nacionalidad: Brasil, Edad: 23 años.
+</description>
+</item>
+<item>
+<title>Luka Modrić (Centrocampista)</title>
+<link>fotos/jugadores/modric.jpg</link>
+<description>Centrocampista, Nacionalidad: Croacia, Edad: 38 años.
+</description>
+</item>
+<item>
+<title>Thibaut Courtois (Portero)</title>
+<link>fotos/jugadores/courtois.jpg</link>
+<description>Portero, Nacionalidad: Bélgica, Edad: 31 años.
+</description>
+</item>
+</item>
+</channel>
+</rss>
